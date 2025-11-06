@@ -7,7 +7,7 @@ variable "environment" {
 }
 
 variable "sg_name"  {
-    type   = string
+    type   = list(string)
 }
 
 variable "sg_description" {
